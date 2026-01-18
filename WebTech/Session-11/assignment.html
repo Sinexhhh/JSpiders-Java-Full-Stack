@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Enabled input styling */
+input:enabled {
+  border: 2px solid green;
+  background-color: #fafffa;
+  color: black;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+/* Disabled input styling */
+input:disabled {
+  border: 2px solid gray;
+  background-color: #eee;
+  color: #777;
+  cursor: not-allowed;
+}
+
+/* Checked checkbox or radio styling */
+input:checked + label {
+  color: rgb(84, 25, 235);
+  font-weight: bold;
+}
+
+/* For modern browsers - accent color */
+input[type="checkbox"]:checked {
+  accent-color: blue;
+}
+</style>
+</head>
+<body>
+
+<h3>Enabled vs Disabled Inputs</h3>
+<input type="text" placeholder="Enabled Input">
+<br>
+<input type="text" placeholder="Disabled Input" disabled>
+
+<h3>Checked Example</h3>
+<input type="checkbox" id="check1" checked>
+<label for="check1">Subscribe to newsletter</label><br>
+
+<input type="checkbox" id="check2">
+<label for="check2">Get notifications</label>
+
+</body>
+</html>

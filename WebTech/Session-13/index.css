@@ -1,0 +1,41 @@
+.container{
+    height: 400px;
+    width: 100%;
+    border: 1px solid;
+    background-color: aqua;
+    display: flex;
+}
+
+.container div{
+    height: 100%;
+    min-width: 149.57px;
+    border: 1px solid red;
+}
+@font-face {
+    font-family: "Sinesh";
+    src: url("./BBHSansHegarty-Regular.ttf");
+}
+@font-face {
+    font-family: "Sinex";
+    src: url("./PlaywriteDESAS-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Sinex2";
+    src: url("./BitcountPropSingleInk-VariableFont_CRSV\,ELSH\,ELXP\,SZP1\,SZP2\,XPN1\,XPN2\,YPN1\,YPN2\,slnt\,wght.ttf");
+}
+@font-face {
+    font-family: "Sinex3";
+    src: url("./Pacifico-Regular.ttf");
+}
+p{
+    font-family: "Sinesh";
+}
+#hii{
+    font-family: "Sinex";
+}
+#hell{
+    font-family: "Sinex2";
+}
+#hello{
+    font-family: "Sinex3";
+}

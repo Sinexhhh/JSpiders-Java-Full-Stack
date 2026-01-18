@@ -1,0 +1,15 @@
+class Q14
+{
+	public static void main(String[] args)
+	{
+	int a=49;
+	if(a%7==0)
+	{
+	System.out.println("Number is Divisble by 7");
+	}
+	else
+	{
+	System.out.println("Number is not Divisble by 7");
+	}	
+}
+}

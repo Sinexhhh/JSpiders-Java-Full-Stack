@@ -1,0 +1,13 @@
+.main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    border: 2px solid;
+    gap: 2px;
+}
+.row1,.row2,.row3{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    
+}

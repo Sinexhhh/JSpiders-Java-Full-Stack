@@ -1,0 +1,28 @@
+p::first-line{
+    background-color: brown;
+}
+
+p::first-letter{
+    font-size: 100px;
+}
+
+p::before{
+    content: "💀";
+}
+
+p::after{
+    content: "🚀";
+}
+
+*::selection{
+    background-color: red;
+    color: yellow
+    ;}
+
+ol li:nth-of-type(odd)::marker{
+    content: "☑️";
+}
+ol li:nth-of-type(even)::marker{
+    content: "❎";
+    background-color: blueviolet;
+}

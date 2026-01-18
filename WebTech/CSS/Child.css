@@ -1,0 +1,20 @@
+li+p{
+    background-color: blueviolet;
+}
+div+li+li{
+    color: red;
+    background-color:rgb(0, 0, 0);
+}
+p+li{
+    background-color: violet;
+}
+input[type="text"]{
+    background-color: red;
+}
+input[type="password"]{
+    background-color: royalblue;
+}
+
+input[type="email"]{
+    background-color: chartreuse;
+}

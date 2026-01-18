@@ -1,0 +1,158 @@
+#hyy{
+    color: rgb(24,245,90);
+}
+
+#hii{
+    color: rgba(200, 120, 45, 1);
+}
+
+#hell{
+    color: hsl(340, 77%, 56%);
+    padding-top: 20px;
+    background-color: chartreuse;
+    text-align: center;
+    
+   /* text-decoration-line: overline;
+    text-decoration-style: wavy;
+    text-decoration-color:hotpink;
+    text-decoration-thickness: 5px;*/
+    text-decoration: overline 5px wavy hotpink;
+}
+#pro{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    background: radial-gradient(red,green,yellow,pink, purple);
+}
+#pro2{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 60deg,green 60deg 120deg,yellow 120deg 180deg
+    ,pink 180deg 240deg, purple 240deg 300deg, yellowgreen 300deg 360deg);
+}
+#hello{
+    color: hsla(220, 77%, 42% , 
+    1);
+}
+
+p{
+    text-align: center;
+    text-align-last: left;
+    text-transform: capitalize;
+}
+#name{
+    text-align: center;
+    margin: 40px;
+    font-size: 70px;
+    text-shadow: 0px 10px 2px gold , 0px -10px 2px rgb(0, 255, 106);
+}
+#txx{
+    letter-spacing: 7px;
+    word-spacing: 5px;
+    text-indent: 100px;
+}
+
+.container{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    /*border: 2px solid;
+    /*border-radius: 50%;*/
+    /*background-image:url(./2d5.webp);*/
+    /*background-color: red;*/
+    background:linear-gradient(TO left top, greenyellow, yellow, pink, magenta);   
+}
+#pro3{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    font-size: 20px;
+    background: conic-gradient(red 0deg 45deg,green 45deg 90deg,yellow 90deg 180deg
+    ,pink 180deg 225deg, purple 225deg 360deg);
+}
+#pro4{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 45deg,green 45deg 90deg,yellow 90deg 135deg
+    ,pink 135deg 180deg, purple 180deg 225deg, blue 225deg 270deg, white 270deg 360deg);
+}
+#pro5{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 45deg, skyblue 45deg 67deg,green 67deg 90deg,yellow 90deg 135deg
+    ,pink 135deg 180deg, purple 180deg 225deg, blue 225deg 270deg, brown 270deg 315deg, orange 315deg 360deg);
+}
+#pro6{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 45deg,green 45deg 135deg,pink 135deg 180deg, purple 180deg 225deg, blue 225deg 315deg, red 315deg 360deg);
+}
+#pro7{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 45deg,green 45deg 90deg,yellow 90deg 135deg
+    ,pink 135deg 180deg, purple 180deg 225deg, blue 225deg 270deg, brown 270deg 315deg, red 315deg 360deg);
+}
+#pro8{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 22deg,hotpink 22deg 45deg,green 45deg 90deg,yellow 90deg 135deg
+    ,pink 135deg 180deg, purple 180deg 225deg, blue 225deg 270deg, brown 270deg 315deg,skyblue 315deg 338deg, orange 338deg 360deg);
+}
+#pro9{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background: conic-gradient(red 0deg 45deg,green 45deg 135deg
+    ,pink 135deg 225deg, blue 225deg 315deg, red 315deg 360deg);
+}
+#pro9{
+    margin-left: 650px;
+    margin-right: 650px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 200px;
+    width: 200px;
+    background-image: url("./2d5.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

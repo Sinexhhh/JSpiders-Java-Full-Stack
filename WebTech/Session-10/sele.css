@@ -1,0 +1,61 @@
+.container[title="webtech"]{
+
+    background-color: brown;
+    border: 2px,solid,black;
+}
+.container:hover[title="webtech"]{
+    background-color: gold;
+}
+.container[title="add"]{
+    height: 200px;
+    width: 200px;
+    background:linear-gradient(red,blue,green);
+    border: 2px solid;
+}
+.container:hover[title="add"]{
+      background:linear-gradient(green,blue,red);
+}
+
+.container[title="jh"]{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid;
+}
+
+.container[title="lm"]{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid;
+}
+
+.container[title="mn"]{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid;
+}
+
+.container:hover[title="add"]{
+    background-color: aqua;
+}
+.container:hover[title="jh"]{
+    background-color: pink;
+}
+.container:hover[title="lm"]{
+    background-color: darkkhaki;
+}
+.container:hover[title="mn"]{
+    background-color: rgb(102, 245, 0);
+}
+
+a:link{
+    color: aquamarine;
+}
+a:active{
+    color: blueviolet;
+}
+a:visited{
+    color: chartreuse;
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    height: 100px;
+    width: 100px;
+    border: 1px solid;
+}
+
+input[name="email"]:focus{
+    background-color: yellow;
+}
+input[name="pass"]:focus{
+    background-color: red;
+    color: yellowgreen;
+}
+input[type="radio"]:focus{
+    background-color: red;
+}
+
+input[type="checkox"]:focus{
+    background-color: brown;
+}
+
+ol li:first-child{
+    background-color: brown;
+}
+
+ol p:first-of-type{
+    background-color: red;
+}
+
+ol p:last-child{
+    background-color: pink;
+}
+
+ol li:nth-child{
+    background-color: blue;
+}
+ol li:nth-of-type(3){
+    background-color:red;
+}

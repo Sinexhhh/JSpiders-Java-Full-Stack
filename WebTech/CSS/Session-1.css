@@ -1,0 +1,34 @@
+.container{
+    height: 600px;
+    width: 100%;
+   /* border:3px,black solid;*/
+    display: flex;
+    justify-content: space-around;
+}
+#box1{
+    height: 100%;
+    width: 18%;
+    background-color: red;
+}
+#box2{
+    height: 80%;
+    width: 18%;
+    background-color: yellow;
+}
+#box3{
+    height: 60%;
+    width: 18%;
+    background-color: green;
+}
+#box4{
+    height: 40%;
+    width: 18%;
+    background-color: rgb(153, 0, 255);
+}
+#box5{
+    height: 20%;
+    width: 18%;
+    background-color: rgb(255, 0, 230);
+}
+
+
