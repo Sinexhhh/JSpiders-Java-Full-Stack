@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 style="text-align:center; color:#000080;">Novell Services Login</h2>
+
+    <div style="width: 420px; margin:auto; padding:20px; border:1px solid #ccc; background-color:#fff;">
+        <form>
+
+            <label>Username:</label>
+            <input type="text" name="username" style="width:100%; padding:5px; margin-top:5px; display:block;">
+
+            <label>Password:</label>
+            <input type="password" name="password" style="width:100%; padding:5px; margin-top:5px; display:block;">
+
+            <label>City of Employment:</label>
+            <input type="text" name="city" style="width:100%; padding:5px; margin-top:5px; display:block;">
+
+            <label>Web server:</label>
+            <select name="server" style="width:100%; padding:5px; margin-top:5px; display:block;">
+                <option>-- Choose a server --</option>
+                <option>Server 1</option>
+                <option>Server 2</option>
+                <option>Server 3</option>
+            </select>
+
+            <p>Please specify your role:</p>
+            <input type="radio" name="role" value="admin"> Admin<br>
+            <input type="radio" name="role" value="engineer"> Engineer<br>
+            <input type="radio" name="role" value="manager"> Manager<br>
+            <input type="radio" name="role" value="guest"> Guest<br>
+
+            <div style="display: flex;">
+                <div style="width: 110px;">
+                    <p>Single Sign-on to the following:</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="sso" value="mail"> Mail<br>
+                    <input type="checkbox" name="sso" value="payroll"> Payroll<br>
+                    <input type="checkbox" name="sso" value="selfservice"> Self-service<br>
+                </div>
+            </div>
+
+            <div style="margin-top:20px; text-align:center;">
+                <input type="submit" value="Login">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

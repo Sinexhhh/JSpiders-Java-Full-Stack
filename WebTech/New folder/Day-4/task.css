@@ -1,0 +1,50 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.row1 div{
+    height: 100px;
+    width: 400px;
+    background-color: green;
+
+}
+.left div{
+    height: 200px;
+    width: 100px;
+    background-color: green;
+
+}
+.right div{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+}
+.rightbot div{
+    height: 100px;
+    width: 150px;
+    background-color: green;
+
+}
+.rightbot{
+    display: flex;
+    flex-direction: row;
+}
+.row3{
+    height: 100px;
+    width: 400px;
+    background-color: green;
+}
+.row2{
+    display: flex;
+    gap: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.rightbot{
+    display: flex;
+    gap: 10px;
+}

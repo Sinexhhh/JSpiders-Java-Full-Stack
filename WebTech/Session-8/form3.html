@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+         <h2 style="text-align:center; color:#000080;">Novell Services Login</h2>
+
+    <div style="width: 420px; margin:auto; padding:20px; border:1px solid #ccc; background-color:#fff;">
+        <form>
+            
+            <label for="name">Username</label><br>
+            <input type="text" name="" id=""><br>
+            <label for="name">Password</label><br>
+            <input type="text" name="" id=""><br>
+            <label for="name">City of Employement</label><br>
+            <input type="text" name="" id=""><br>
+            <label>Web Server</label><br>
+            
+            <select name="server">
+            <option>--choose a Server--</option>
+            <option value="">Server 1</option>
+            <option value="">Server 2</option>
+            <option value="">Server 3</option>
+            </select>
+             <p>Please specify your role:</p>
+            <input type="radio" name="role" value="admin"> Admin<br>
+            <input type="radio" name="role" value="engineer"> Engineer<br>
+            <input type="radio" name="role" value="manager"> Manager<br>
+            <input type="radio" name="role" value="guest"> Guest<br>
+
+            <div style="display: flex;">
+                <div style="width: 110px;">
+                    <p>Single Sign-on to the following:</p>
+                </div>
+                <div>
+                    <input type="checkbox" name="sso" value="mail"> Mail<br>
+                    <input type="checkbox" name="sso" value="payroll"> Payroll<br>
+                    <input type="checkbox" name="sso" value="selfservice"> Self-service<br>
+                </div>
+            </div>
+            <div style="margin-top:20px; text-align:center;">
+                <input type="submit" value="Login">
+                <input type="reset" value="Reset">
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
