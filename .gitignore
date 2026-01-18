@@ -60,3 +60,4 @@ target/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+*.mp4
