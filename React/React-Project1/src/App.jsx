@@ -4,6 +4,8 @@ import Cbc from "./state/Cbc"
 import GrandParent from "./props/GrandParent"
 import PropsChild from "./props/PropsChild"
 import PropsParent from "./props/PropsParent"
+import MyContext from "./ContextAPI/Context"
+import ContextParent from "./ContextAPI/ContextParent"
 
 const App = ()=>{
     return(
@@ -12,7 +14,8 @@ const App = ()=>{
             {/* <StatesInFbc3/> */}
             {/* <Cbc/> */}
             {/* <GrandParent/>*/}
-        <PropsParent/>
+            {/* <PropsParent/> */}
+        <ContextParent/>
         </div>
     )
 }
