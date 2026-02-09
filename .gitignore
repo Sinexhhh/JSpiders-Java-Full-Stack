@@ -60,4 +60,9 @@ target/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+# videos
 *.mp4
+
+# react junk
+node_modules/
+React/
