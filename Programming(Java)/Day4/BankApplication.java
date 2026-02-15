@@ -21,9 +21,7 @@ class BankApplication{
         if(bal<25000){
         balance=balance-bal;
         }
-        else{
-            System.out.println("You have entered invalid amount");
-        }
+        
         return balance;
     }
     public double currentWithdraw(){
